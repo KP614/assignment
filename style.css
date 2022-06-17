@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: pink;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: powderblue;
+    width: 550px;
+    height: 590px;
+    text-align: center;
+    
+   
+}
+
+.add-items{
+    margin: 10px;
+    
+}
+input{
+    padding: 6px 4px;
+    width: 80%;
+}
+button{
+    padding: 8px 20px;
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    color: Black;
+
+}
+
+ul{
+    padding: 15px;
+   
+}
+li{
+    list-style: none;
+    padding: 10px 5px;
+    background-color: white;
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,.16);
+    border-radius: 3px;
+    transition: .4s;
+}
+button:hover{
+    background-color: pink;
+}
+
+li:hover{
+    background-color: pink;
+}
+
+.checked{
+    text-decoration: line-through;
+    background-color: lightpink;
+}
